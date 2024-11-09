@@ -1,0 +1,60 @@
+body {
+    color: rgb(251, 249, 249);
+    background: rgb(22, 13, 0);
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom:solid 2px darkred ;
+    padding: 10px;
+    font-size: 30px;
+    color:rgb(223, 21, 21);
+}
+
+.chamada {
+    background: rgb(133,30,30);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto { 
+    margin-right: 5%;
+}
+h1{
+    font-size: 54px;
+}
+p{
+    font-size: 20px;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x:auto ;
+    gap: 30px;
+}
+.categoria {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+
+/* código escondido */
+
+.categoria-videos img {
+    opacity:0.5;
+
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgba(185, 24, 24, 0.842);
+}
+
+.categoria h2 {
+    color: rgba(223, 21, 21, 1);
+}
